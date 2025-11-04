@@ -47,7 +47,7 @@ def main(argv):
 
     # Server Base URL and port
     baseurl = "localhost"
-    port = 4000
+    port = 3000
 
     try:
         opts, args = getopt.getopt(argv,"hu:p:",["url=","port="])

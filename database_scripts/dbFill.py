@@ -39,7 +39,7 @@ def main(argv):
 
     # Server Base URL and port
     baseurl = "localhost"
-    port = 4000
+    port = 3000
 
     # Number of POSTs that will be made to the server
     userCount = 50
@@ -98,7 +98,7 @@ def main(argv):
         userEmails.append(str(d['data']['email']))
 
     # Open 'tasks.txt' for sample task names
-    f = open('tasks.txt','r')
+    f = open(r'C:\Users\kazyp\Stuff\Development\School\CS409\cs409-fa25-mp3\database_scripts\tasks.txt')
     taskNames = f.read().splitlines()
 
     # Loop 'taskCount' number of times
